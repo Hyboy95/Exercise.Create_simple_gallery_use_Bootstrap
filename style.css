@@ -1,0 +1,15 @@
+.card:hover {
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+@media only screen and(max-width: 700px) {
+    .card-deck {
+        width: 50%;
+    }
+}
+@media only screen and(max-width: 500px) {
+    .card-deck {
+        width: 100%;
+    }
+}
